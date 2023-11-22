@@ -1,0 +1,43 @@
+body {
+    background-color: #343a40;
+    color: #dee2e6;
+}
+.todo-container {
+    max-width: 400px;
+    margin: 50px auto;
+}
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+.task-item {
+    background-color: #495057;
+    border-color: #495057;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-item:hover {
+    background-color: #343a40;
+    border: 1px solid white;
+}
+.btn-edit, .btn-delete {
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 5px;
+}
+.btn-delete {
+    color: red;
+}
+/* Adjustments for input and button */
+#taskInput {
+    font-size: 1.2em;
+    padding: 10px;
+}
+#taskForm button {
+    font-size: 1.2em;
+    padding: 10px;
+}
