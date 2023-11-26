@@ -1,6 +1,6 @@
 body {
     background-color: #343a40;
-    color: #dee2e6;
+    color: #dee1e6;
 }
 .todo-container {
     max-width: 400px;
@@ -32,6 +32,7 @@ body {
 .btn-delete {
     color: red;
 }
+
 /* Adjustments for input and button */
 #taskInput {
     font-size: 1.2em;
@@ -40,4 +41,8 @@ body {
 #taskForm button {
     font-size: 1.2em;
     padding: 10px;
+}
+
+.task-item.important {
+    background-color: #001afffa; 
 }
